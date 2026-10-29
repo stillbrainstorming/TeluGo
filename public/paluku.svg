@@ -1,1 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128"><rect width="128" height="128" rx="30" fill="#183f35"/><path d="M27 34h74a8 8 0 0 1 8 8v39a8 8 0 0 1-8 8H59L39 108V89h-4a8 8 0 0 1-8-8V42a8 8 0 0 1 8-8Z" fill="#f4e8ce"/><text x="64" y="72" text-anchor="middle" font-size="31" font-family="sans-serif" fill="#183f35">ప</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#756bff"/>
+      <stop offset="1" stop-color="#4538cf"/>
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="32" fill="url(#brand)"/>
+  <circle cx="99" cy="28" r="11" fill="#ffd66c"/>
+  <path d="M25 31h77a9 9 0 0 1 9 9v39a9 9 0 0 1-9 9H60L39 105V88h-5a9 9 0 0 1-9-9V40a9 9 0 0 1 9-9Z" fill="#fff"/>
+  <text x="65" y="72" text-anchor="middle" font-size="34" font-weight="700" font-family="'Noto Sans Telugu',sans-serif" fill="#5548e8">ప</text>
+  <circle cx="92" cy="78" r="4" fill="#ff786f"/>
+</svg>

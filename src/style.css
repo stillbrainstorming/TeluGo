@@ -5,3 +5,127 @@
 .vocab-tabs{align-items:center;gap:8px}.vocab-tabs button{border:1px solid transparent;border-radius:7px;background:transparent;color:#78877c;padding:8px 10px;font-size:11px}.vocab-tabs button.active{background:#e9efe7;color:var(--green);border-color:#dfe8dd;font-weight:700}.example-list{margin:24px 0 0}.example-list h3{font-size:14px;color:#40594a;margin:0 0 10px}.example-card{background:#fff;border:1px solid var(--line);border-radius:12px;padding:13px 15px;margin:8px 0}.example-card .telugu-wrap{margin:0}.example-card .te{font-size:21px}.example-card p{margin:4px 0 8px;color:var(--muted);font-size:12px}.lesson-intro .word-card{margin-bottom:9px}
 
 .search-box input:focus-visible{outline:3px solid #c9785b;outline-offset:2px}
+
+
+/* Paluku language-learning identity: bright indigo, sky, coral, and sunshine. */
+:root{font-family:'Plus Jakarta Sans',sans-serif;color:#28264b;background:#f6f7ff;--green:#5548e8;--green2:#3930b5;--cream:#f6f7ff;--muted:#777b9a;--line:#e5e7f6;--terracotta:#ff786f;--soft:#efefff}
+body{background:#f6f7ff;color:#28264b}
+button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #ff786f;outline-offset:3px}
+.sidebar{background:#fff;border-right-color:#e7e8f8;box-shadow:4px 0 28px #3f3ca507}
+.brand,.welcome-brand{color:#5548e8}
+.brand-mark{background:linear-gradient(145deg,#6257f0,#4538cf);color:#fff3c7;border-radius:13px;box-shadow:0 6px 14px #5548e82c}
+.sidebar-label,.settings-heading{color:#9b9fbd}
+.sidebar nav button{border-radius:12px;transition:background .18s,color .18s,transform .18s}
+.sidebar nav button:hover{background:#f5f4ff;color:#5548e8;transform:translateX(2px)}
+.sidebar nav button.active{background:#eeedff;color:#5144e0}
+.side-tip{background:linear-gradient(140deg,#f0efff,#eaf8ff);border:1px solid #e3e5ff}
+.tip-icon{color:#ff786f}
+.avatar{background:#eeedff;color:#5144e0}
+.side-user{border-top-color:#eeeff9}
+.main-area{background:radial-gradient(ellipse at 82% 0%,#eeefff70 0,transparent 32%)}
+.content{max-width:1080px}
+.eyebrow{color:#8d8fb5;letter-spacing:1.45px}
+.page-heading h1,.lesson-body h1,.conversation-body h1{color:#28264b;letter-spacing:-1.2px}
+.page-heading p,.muted{color:#777b9a}
+.hero-card{background:linear-gradient(112deg,#5548e8 0%,#6d62f1 58%,#8079f7 100%);border-radius:25px;box-shadow:0 15px 36px #5548e824;isolation:isolate}
+.hero-card:before,.hero-card:after{content:"";position:absolute;z-index:-1;border-radius:50%;pointer-events:none}
+.hero-card:before{width:270px;height:270px;right:8%;top:-145px;background:#ffffff14;border:1px solid #ffffff24}
+.hero-card:after{width:155px;height:155px;right:2%;bottom:-95px;background:#ffcb6b30;border:1px solid #ffdf9b45}
+.hero-kicker{color:#e3e1ff}
+.hero-card h2{letter-spacing:-1.2px}
+.hero-card p{color:#e5e4ff}
+.hero-script{color:#fff;opacity:.2}
+.light-btn{background:#ffd66c;color:#343071;border-radius:11px;box-shadow:0 5px 0 #3930b51b;transition:transform .18s,box-shadow .18s}
+.light-btn:hover{transform:translateY(-2px);box-shadow:0 7px 0 #3930b51b}
+.stats-grid{gap:16px}
+.stat-card,.next-card,.word-of-day,.course-progress,.settings-card,.lesson-list,.scenario-list,.listen-card,.word-card,.exercise-card{border-color:#e7e8f7;box-shadow:0 5px 20px #4946a008}
+.stat-card{border-radius:17px;transition:transform .18s,box-shadow .18s}
+.stat-card:hover,.word-card:hover,.next-card:hover{box-shadow:0 10px 25px #4946a012;transform:translateY(-2px)}
+.peach{background:#fff0ed;color:#ed6c65}
+.sage{background:#edeeff;color:#5548e8}
+.butter{background:#fff5d9;color:#bc821a}
+.section-title h2{color:#28264b}
+.text-btn{color:#5548e8}
+.next-card{border-radius:17px}
+.next-icon{background:#eeedff;color:#5548e8;border-radius:15px}
+.pill{background:#eeedff;color:#5144d7;letter-spacing:.55px;border-radius:7px}
+.word-of-day{border-radius:17px}
+.te{color:#36328b}
+.roman{color:#777b9a}
+.sound-btn,.small-icon,.icon-btn{background:#eeedff;color:#5548e8;transition:background .18s,transform .18s}
+.sound-btn:hover,.small-icon:hover,.icon-btn:hover{background:#e1dfff;transform:translateY(-1px)}
+.course-progress,.settings-card{border-radius:18px}
+.course-progress h2{color:#28264b}
+.progress-track{background:#ececff;border-radius:99px}
+.progress-track span{background:linear-gradient(90deg,#5548e8 0%,#8c82ff 65%,#5cccf0 100%);border-radius:99px}
+.module-number{background:#eeedff;color:#5548e8;border-radius:13px}
+.module-head h2{color:#28264b}
+.lesson-list,.scenario-list{border-radius:18px}
+.lesson-row{transition:background .18s}
+.lesson-row:hover{background:#f8f7ff}
+.lesson-number{border-color:#e6e6f6;color:#898bb0;border-radius:11px}
+.lesson-number.complete{background:#5548e8;color:#fff}
+.lesson-row-copy h3{color:#29274e}
+.coming-card{background:linear-gradient(110deg,#f0efff,#eef9ff);border:1px solid #e5e7fa;border-radius:16px}
+.coming-card b{color:#5144cf}
+.practice-feature{background:linear-gradient(110deg,#ecebff,#eaf8ff);border:1px solid #e3e6fb;border-radius:19px}
+.practice-feature-icon{background:#fff;color:#5548e8;border:1px solid #e2e3fb;border-radius:15px}
+.practice-feature h2{color:#29274e}
+.scenario-row{transition:background .18s}
+.scenario-row:hover{background:#faf9ff}
+.scenario-emoji{background:#fff1e9;border:1px solid #ffebe3}
+.secondary-feature{background:linear-gradient(110deg,#fff1ec,#fff7df)}
+.secondary-feature .practice-feature-icon{background:#fff;color:#ed6c65}
+.listen-card{border-radius:18px}
+.outline-btn{border-color:#dcdcf5;color:#5144d7;border-radius:11px}
+.outline-btn:hover{background:#f7f6ff}
+.search-box{border-color:#e4e5f6;border-radius:13px;box-shadow:0 3px 12px #4946a006}
+.search-box:focus-within{border-color:#aaa3ff;box-shadow:0 0 0 3px #5548e81b}
+.search-box input{background:transparent}
+.vocab-tabs button.active{background:#eeedff;color:#5144d7;border-color:#dddaff}
+.word-card{border-radius:15px;transition:transform .18s,box-shadow .18s}
+.word-card .te{color:#36328b}
+.small-icon.saved{color:#e36c65;background:#fff0ed}
+.profile-card{background:linear-gradient(120deg,#eeedff,#eaf8ff);border:1px solid #e3e5fb;border-radius:18px}
+.profile-avatar{background:#5548e8;color:#fff}
+.settings-card{border-radius:18px}
+.setting-row b,.profile-metric span{color:#37355b}
+.setting-row select,.name-input{border-color:#e2e3f5;background:#fafaff;color:#403c82;border-radius:9px}
+.reset-btn{color:#e46e66}
+.lesson-screen,.conversation-overlay{background:radial-gradient(ellipse at 85% 0%,#efefff 0,transparent 32%),#f8f9ff}
+.lesson-top{background:#fff;border-bottom-color:#e7e8f7}
+.lesson-body h1{color:#28264b}
+.intro-icon{background:#eeedff;color:#5548e8;border-radius:14px}
+.lesson-intro h2,.exercise-card h2{color:#28264b}
+.exercise-card{border-radius:19px}
+.exercise-label{color:#8d8fb5}
+.option{border-color:#e3e4f4;border-radius:12px;transition:border-color .18s,background .18s}
+.option:hover{border-color:#b3acff;background:#faf9ff}
+.option.selected{border-color:#8a80f7;background:#f2f0ff}
+.option.correct{border-color:#63c7a4;background:#eafaf3;color:#27775b}
+.option.wrong{border-color:#ffaea4;background:#fff0ed;color:#b94b46}
+.explanation{background:#eafaf3;color:#27775b}
+.primary{background:linear-gradient(105deg,#5548e8,#6e62f0);color:#fff;border-radius:12px;box-shadow:0 7px 17px #5548e825;transition:transform .18s,box-shadow .18s}
+.primary:hover:not(:disabled){transform:translateY(-1px);box-shadow:0 10px 21px #5548e834}
+.primary:disabled{opacity:.4;box-shadow:none}
+.welcome{background:#f8f9ff}
+.welcome-art{background:linear-gradient(145deg,#e8eaff 0%,#e8f8ff 65%,#fff1e9 100%)}
+.sun{background:linear-gradient(135deg,#ffe18a,#ffc96b);opacity:.9}
+.speech-one{color:#5144d7;border:1px solid #e1deff}
+.speech-two{color:#e66c61;border:1px solid #ffe0d9}
+.art-caption{color:#777b9a}
+.art-caption b{color:#5144d7}
+.welcome-copy h1{color:#28264b}
+.welcome-copy p{color:#777b9a}
+.welcome-note{color:#9699b6}
+.chat-bubble,.response-option{border-color:#e5e6f6;border-radius:16px;box-shadow:0 5px 20px #4946a008}
+.chat-label{color:#8d8fb5}
+.conversation-body h3{color:#34325c}
+.response-option:hover{border-color:#b3acff;background:#faf9ff}
+.feedback{background:#fff1ec;color:#aa554c;border:1px solid #ffe1d8;border-radius:14px}
+.feedback.good{background:#eafaf3;color:#27775b;border-color:#d2f4e5}
+.mobile-top{background:#fff;border-bottom-color:#e7e8f7}
+.mobile-menu{border-color:#e3e4f5;border-radius:15px;box-shadow:0 12px 32px #35316b16}
+.mobile-nav{border-top-color:#e5e6f6;box-shadow:0 -5px 22px #3b378008}
+.mobile-nav button.active{color:#5548e8}
+@media(max-width:650px){.hero-card{border-radius:22px}.content{padding-top:26px}.stats-grid{gap:9px}.stat-card{border-radius:13px}.welcome-art{border-radius:0 0 26px 26px}.welcome-copy h1{letter-spacing:-1.3px}}
